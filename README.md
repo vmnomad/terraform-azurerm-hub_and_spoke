@@ -7,7 +7,7 @@ The Microsoft Tutorial: [Deploy and configure Azure Firewall and policy in a hyb
 
 ## Usage
 
-There is an example inclued in the [Examples](./examples folder)
+There is an example inclued in the [Examples](./examples) folder
 
 ## Features
 
