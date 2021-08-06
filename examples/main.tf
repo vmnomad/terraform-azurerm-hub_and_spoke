@@ -11,7 +11,7 @@ provider "azurerm" {
 }
 
 module "hub_and_spoke" {
-    source = "../terraform-azurerm-hub_and_spoke" 
+    source = "ithub.com/vmnomad/terraform-azurerm-hub_and_spoke" 
 
     # hub configuration
     hub_location                        = "australiaeast"
