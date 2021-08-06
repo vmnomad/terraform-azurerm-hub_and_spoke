@@ -5,6 +5,11 @@ This is a simple module that creates Hub, Nx Spokes and On-Prem topology with Az
 
 The Microsoft Tutorial: [Deploy and configure Azure Firewall and policy in a hybrid network using the Azure portal](https://docs.microsoft.com/en-au/azure/firewall/tutorial-hybrid-portal-policy) was used as a guideline when creating this module.
 
+## Warning
+
+Always make sure you destroy everything after you finished working with it. This module might be quite expensive for a lab use if left for a while. While VMs and VPN gatways are cheap, the Azure Firewall could be incur significant cost. 
+You can check latest Azure pricing [here](https://azure.microsoft.com/en-us/pricing/calculator/)
+
 ## Usage
 
 There is an example inclued in the [Examples](./examples) folder
