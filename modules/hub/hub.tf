@@ -35,7 +35,7 @@ resource "azurerm_network_security_rule" "rule" {
 }
 
 resource "azurerm_subnet" "GatewaySubnet" {
-  name                 = "gateway_subnet"
+  name                 = "GatewaySubnet"
   resource_group_name  = azurerm_resource_group.hub_rg.name
   virtual_network_name = azurerm_virtual_network.hub_vnet.name
   address_prefixes     = var.gateway_subnet_address_space
@@ -43,7 +43,7 @@ resource "azurerm_subnet" "GatewaySubnet" {
 
 
 resource "azurerm_subnet" "AzureFirewallSubnet" {
-  name                 = "firewall_subnet"
+  name                 = "AzureFirewallSubnet"
   resource_group_name  = azurerm_resource_group.hub_rg.name
   virtual_network_name = azurerm_virtual_network.hub_vnet.name
   address_prefixes     = var.firewall_subnet_address_space
